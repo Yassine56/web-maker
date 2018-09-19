@@ -1,0 +1,32 @@
+{
+  "name": "web-maker",
+  "version": "1.0.0",
+  "description": "web maker xoxo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yassine56/web-maker.git"
+  },
+  "author": "Abouelouafa Yassine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yassine56/web-maker/issues"
+  },
+  "homepage": "https://github.com/Yassine56/web-maker#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "edge.js": "^1.1.4",
+    "express": "^4.16.3",
+    "express-edge": "^1.0.0",
+    "mongoose": "^5.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
